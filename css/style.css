@@ -16,3 +16,21 @@ textarea.form-control {
   resize: none;
   height: 150px;
 }
+
+.btn-primary > a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn-danger > a{
+  color: white;
+  text-decoration: none;
+}
+
+.table>tbody>tr>td.withoutBorder{
+  border-top: none;
+}
+
+.btn{
+  cursor:pointer;
+}

@@ -35,9 +35,12 @@
       <td><?= $contact['zip']; ?></td>
       <td><?= $contact['phone']; ?></td>
       <td><?= $contact['notes']; ?></td>
+
       <td class = "withoutBorder">
         <button type="button" class="btn btn-primary "><a href="/edit.php?id=<?= $contact['id']; ?>">Edit</a></button>
+
       </td>
+
       <td class = "withoutBorder">
         <button type="button" class="btn btn-danger "><a href="/delete.php?id=<?= $contact['id']; ?>">Delete</a></button>
       </td>

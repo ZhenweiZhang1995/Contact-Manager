@@ -15,9 +15,6 @@ $stmt->execute(array(
   ':zip' => $_POST['zip'],
   ':phone' => $_POST['phone'],
   ':notes' => $_POST['notes']
-  // ':description' => $_POST['description'],
-  // ':priority' => $_POST['priority'],
-  // ':completed' => array_key_exists('completed', $_POST) ? $_POST['completed'] : 0
 ));
 
 header('Location: http://localhost:8888/edit.php?updated=true&id=' . $_POST['id']);

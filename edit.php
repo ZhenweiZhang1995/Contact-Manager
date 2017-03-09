@@ -48,8 +48,6 @@
     </select>
   </div>
 
-
-
   <div class="form-group">
     <label for="address">Address</label>
     <textarea class="form-control" name="address" id="address"><?= $contact['address']; ?></textarea>
@@ -57,22 +55,22 @@
 
   <div class="form-group">
     <label for="city">City</label>
-    <input class="form-control" type="text" name="city" id="city" value="<? $contact['city']; ?>" />
+    <input class="form-control" type="text" name="city" id="city" value="<?= $contact['city']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="state">State</label>
-    <input class="form-control" type="text" name="state" id="state" value="<? $contact['state']; ?>" />
+    <input class="form-control" type="text" name="state" id="state" value="<?= $contact['state']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="zip">Zip Code</label>
-    <input class="form-control" type="text" name="zip" id="zip" value="<? $contact['zip']; ?>" />
+    <input class="form-control" type="text" name="zip" id="zip" value="<?= $contact['zip']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="phone">Phone Number</label>
-    <input class="form-control" type="text" name="phone" id="phone" value="<? $contact['phone']; ?>" />
+    <input class="form-control" type="text" name="phone" id="phone" value="<?= $contact['phone']; ?>" />
   </div>
 
   <div class="form-group">

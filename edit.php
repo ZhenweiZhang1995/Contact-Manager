@@ -7,7 +7,7 @@
   $stmt->bindParam(':id', $id);
   $stmt->execute();
 
-  $task = $stmt->fetch(PDO::FETCH_ASSOC);
+  $contact = $stmt->fetch(PDO::FETCH_ASSOC);
 
 ?>
 

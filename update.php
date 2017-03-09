@@ -20,4 +20,4 @@ $stmt->execute(array(
   // ':completed' => array_key_exists('completed', $_POST) ? $_POST['completed'] : 0
 ));
 
-header('Location: http://localhost:8080/edit.php?updated=true&id=' . $_POST['id']);
+header('Location: http://localhost:8888/edit.php?updated=true&id=' . $_POST['id']);

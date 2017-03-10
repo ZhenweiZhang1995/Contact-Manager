@@ -13,8 +13,8 @@
 
 <!-- check if an array was just updated, if so, show up a notification -->
 <?php if (array_key_exists('updated', $_GET)) : ?>
-<div class="notification is-success">
-  <p><strong class ="is-white">Update successful!</strong> Your contact was updated.</p>
+<div class="notification is-warning">
+  <p><strong>Contact updated! </strong> Old data has been overridden.</p>
 </div>
 <?php endif; ?>
 
@@ -92,13 +92,8 @@
     <textarea class="form-control" name="notes" id="notes"><?= $contact['notes']; ?></textarea>
   </div>
 
-  <!-- <div class="checkbox">
-    <label>
-      <input type="checkbox" name="completed" value="1"<?= ($task['completed'] == 1) ? ' checked' : ''; ?>> Completed
-    </label>
-  </div> -->
 
-  <button class="btn btn-primary">Save Contact</button>
+  <button class="button is-info is-medium">Save Contact</button>
 </form>
 
 <?php include 'footer.php'; ?>

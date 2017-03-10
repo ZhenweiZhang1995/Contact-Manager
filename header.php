@@ -17,6 +17,7 @@ include 'database.php';
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -27,7 +28,7 @@ include 'database.php';
     <header class="nav">
       <div class="container">
         <div class="nav-left">
-          <a class="nav-item nounderline" href="/index.php">Contact Manager</a>
+          <a class="nav-item nounderline" href="/index.php"><strong class = "main-icon">Contact Manager</strong></a>
         </div>
         <label class="nav-toggle" for="nav-toggle-state">
           <span></span>
@@ -40,14 +41,18 @@ include 'database.php';
 
         <div class="nav-right nav-menu">
 
-          <a class="nav-item nounderline" href="/index.php">All Contacts</a>
-          <a class="nav-item nounderline" href="/new.php">New Contacts</a>
+          <!-- <a class="nav-item nounderline" href="/index.php">All Contacts</a>
+          <a class="nav-item nounderline" href="/new.php">New Contacts</a> -->
+
           <span class="nav-item">
-            <a class="button is-primary is-inverted">
-              <span class="icon">
-                <i class="fa fa-github"></i>
-              </span>
-              <span>Download</span>
+            <a class="button is-info is-inverted is-outlined nounderline" href="/index.php">
+              <span>All Contacts</span>
+            </a>
+          </span>
+
+          <span class="nav-item">
+            <a class="button is-info is-inverted is-outlined nounderline" href="/new.php">
+              <span>New Contacts</span>
             </a>
           </span>
         </div>
@@ -58,11 +63,11 @@ include 'database.php';
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title">
+      <h1 class="title maintitle Prociono">
         Contact Manager
       </h1>
 
-      <h2 class="subtitle">
+      <h2 class="subtitle Prociono">
         Useful tool to Edit and Creat your contacts
       </h2>
     </div>

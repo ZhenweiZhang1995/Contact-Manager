@@ -85,3 +85,20 @@ td{
   padding-left: 2px;
   padding-right: 2px;
 }
+
+strong.main-icon{
+  font-size: 150%;
+}
+
+.Prociono{
+  font-family: 'Prociono';
+}
+
+h1.maintitle{
+  font-size: 220%;
+}
+
+h2.subtitle{
+  font-size: 130%;
+  padding-top: 10px;
+}

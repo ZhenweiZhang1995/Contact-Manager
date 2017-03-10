@@ -4,7 +4,7 @@
     </div>
   </div>
 
-
+  <!-- footer part, show up on every page -->
   <section class="hero is-info is-small">
   <div class="hero-body">
     <div class="container">

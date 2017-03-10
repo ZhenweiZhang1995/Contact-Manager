@@ -1,15 +1,18 @@
 <?php include 'header.php';
+  // get data from database and name it contacts
   $contacts = $db->query('SELECT * FROM contacts')->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
+<!-- check if an array was just deleted, if so, show up a notification -->
 <?php if (array_key_exists('deleted', $_GET)) : ?>
-<div class="alert alert-danger">
-  <p><strong>Contact Deleted!</strong> The contact was removed.</p>
+<div class="notification is-danger">
+  <p><strong class ="is-white">Contact Deleted!</strong> The contact was removed.</p>
 </div>
 <?php endif; ?>
 
 <h1 class = "title">All Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
 
+<!-- creat the table -->
 <table class="table table-hover">
   <thead>
     <th>ID</th>
@@ -23,6 +26,8 @@
     <th>Notes</th>
   </thead>
   <tbody>
+
+    <!-- Use loop to dynamically add contact data to table row -->
     <?php foreach($contacts as $contact) : ?>
     <tr>
 
@@ -36,20 +41,17 @@
       <td><?= $contact['phone']; ?></td>
       <td><?= $contact['notes']; ?></td>
 
+      <!-- button for edit -->
       <td class = "withoutBorder">
         <button type="button" class="button is-info "><a href="/edit.php?id=<?= $contact['id']; ?>" class ="nounderline white"><i class="fa fa-wrench" aria-hidden="true"></i></a></button>
-
       </td>
 
-      <!-- <td class = "withoutBorder">
-        <button type="button" class="btn btn-danger "><a href="/delete.php?id=<?= $contact['id']; ?>">Delete</a></button>
-      </td> -->
-
+      <!-- button for delete -->
       <td class = "withoutBorder">
         <button type="button" class="button is-danger red"><a href="/delete.php?id=<?= $contact['id']; ?>" class ="nounderline white"><i class="fa fa-trash" aria-hidden="true"></i></a></button>
       </td>
-      <!-- <td><a href="/edit.php?id=<?= $contact['id']; ?>"><?= ($contact['completed'] == 1) ? '&check;' : ''; ?></a></td>
-    </tr> -->
+
+    <!-- end of loop -->
     <?php endforeach; ?>
   </tbody>
 </table>

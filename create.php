@@ -1,5 +1,6 @@
 <?php
 
+  // save new data into database
   include 'database.php';
 
   $stmt = $db->prepare("INSERT INTO contacts

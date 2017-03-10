@@ -1,6 +1,7 @@
 <?php
 
   include 'database.php';
+  // delete data by selecting the corresponding id
 
   $stmt = $db->prepare('DELETE from contacts WHERE id = :id');
   $stmt->execute(array(

@@ -72,6 +72,10 @@ a.white{
   background-color: #f81713;
 }
 
+div.notification.is-danger{
+  background-color: #f4211d;
+}
+
 .button.is-danger: hover{
   background-color: #db110e;
 }

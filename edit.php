@@ -11,12 +11,14 @@
 
 ?>
 
+<!-- check if an array was just updated, if so, show up a notification -->
 <?php if (array_key_exists('updated', $_GET)) : ?>
 <div class="notification is-success">
   <p><strong class ="is-white">Update successful!</strong> Your contact was updated.</p>
 </div>
 <?php endif; ?>
 
+<!-- check if an array was just created, if so, show up a notification -->
 <?php if (array_key_exists('created', $_GET)) : ?>
 <div class="notification is-success">
   <p><strong class ="is-white">Contact created!</strong> Your contact was successfully created.</p>
@@ -25,6 +27,7 @@
 
 <!-- <a href="/delete.php?id=<?= $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a> -->
 
+<!-- delete contact button -->
 <a href="/delete.php?id=<?= $contact['id']; ?>" class="button is-danger is-outlined is-pulled-right nounderline" >
     <span>Delete Contact</span>
     <span class="icon is-small">
@@ -36,7 +39,7 @@
 
 <h1 class ="title">Edit Contact</h1>
 
-
+<!-- Get data from user input and post it using update.php -->
 <form method="POST" action="/update.php">
   <input type="hidden" name="id" id="contact_id" value="<?= $contact['id']; ?>" />
 

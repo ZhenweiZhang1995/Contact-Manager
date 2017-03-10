@@ -2,6 +2,7 @@
 
 <h1 class="title">Create Contact</h1>
 
+<!-- Get new data from user input and post through create.php -->
 <form method="POST" action="/create.php">
 
   <div class="form-group">

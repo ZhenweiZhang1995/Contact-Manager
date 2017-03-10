@@ -27,7 +27,7 @@ include 'database.php';
     <header class="nav">
       <div class="container">
         <div class="nav-left">
-          <a class="nav-item" href="/index.php">Contact Manager</a>
+          <a class="nav-item nounderline" href="/index.php">Contact Manager</a>
         </div>
         <label class="nav-toggle" for="nav-toggle-state">
           <span></span>
@@ -40,8 +40,8 @@ include 'database.php';
 
         <div class="nav-right nav-menu">
 
-          <a class="nav-item" href="/index.php">All Contacts</a>
-          <a class="nav-item" href="/new.php">New Contacts</a>
+          <a class="nav-item nounderline" href="/index.php">All Contacts</a>
+          <a class="nav-item nounderline" href="/new.php">New Contacts</a>
           <span class="nav-item">
             <a class="button is-primary is-inverted">
               <span class="icon">
@@ -75,7 +75,7 @@ include 'database.php';
 
 
 
-  <nav class="navbar navbar-default">
+  <!-- <nav class="navbar navbar-default">
         <div class="container-fluid">
 
 
@@ -100,7 +100,7 @@ include 'database.php';
 
 
         </div>
-      </nav>
+      </nav> -->
 
 
       <div class="row">

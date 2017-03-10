@@ -8,7 +8,7 @@
 </div>
 <?php endif; ?>
 
-<h1>All Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
+<h1 class = "title">All Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
 
 <table class="table table-hover">
   <thead>
@@ -37,12 +37,16 @@
       <td><?= $contact['notes']; ?></td>
 
       <td class = "withoutBorder">
-        <button type="button" class="btn btn-primary "><a href="/edit.php?id=<?= $contact['id']; ?>">Edit</a></button>
+        <button type="button" class="button is-info "><a href="/edit.php?id=<?= $contact['id']; ?>" class ="nounderline white"><i class="fa fa-wrench" aria-hidden="true"></i></a></button>
 
       </td>
 
-      <td class = "withoutBorder">
+      <!-- <td class = "withoutBorder">
         <button type="button" class="btn btn-danger "><a href="/delete.php?id=<?= $contact['id']; ?>">Delete</a></button>
+      </td> -->
+
+      <td class = "withoutBorder">
+        <button type="button" class="button is-danger red"><a href="/delete.php?id=<?= $contact['id']; ?>" class ="nounderline white"><i class="fa fa-trash" aria-hidden="true"></i></a></button>
       </td>
       <!-- <td><a href="/edit.php?id=<?= $contact['id']; ?>"><?= ($contact['completed'] == 1) ? '&check;' : ''; ?></a></td>
     </tr> -->

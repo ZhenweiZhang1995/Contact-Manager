@@ -4,38 +4,22 @@
     </div>
   </div>
 
-    <!-- <footer class="footer">
-      <div class="container">
-        <div class="content has-text-centered">
-          <p>
-            <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-      </p>
-        <p>
-          <a class="icon" href="https://github.com/jgthms/bulma">
-            <i class="fa fa-github"></i>
-        </a>
-        </p>
-      </div>
-    </div>
-  </footer> -->
 
   <section class="hero is-info is-small">
   <div class="hero-body">
     <div class="container">
 
-      <div class="content has-text-centered">
+      <div class="content has-text-centered is-white">
         <p>
-          <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-      </p>
-      <p>
-        <a class="icon" href="https://github.com/jgthms/bulma">
-          <i class="fa fa-github"></i>
-      </a>
-      </p>
+          Link to <a href="styleguide.html"><strong>CSS style guide</strong></a> of the site
+        </p>
+        <p>
+          Website designed by <a href="https://github.com/ZhenweiZhang1995"><strong>Zhenwei Zhang</strong></a>
+          <a class="icon" href="https://github.com/ZhenweiZhang1995"><i class="fa fa-github"></i></a>
+        </p>
+        <p>
+          <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>
+        </p>
       </div>
 
       </div>

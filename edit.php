@@ -12,19 +12,30 @@
 ?>
 
 <?php if (array_key_exists('updated', $_GET)) : ?>
-<div class="alert alert-success">
-  <p><strong>Update successful!</strong> Your contact was updated.</p>
+<div class="notification is-success">
+  <p><strong class ="is-white">Update successful!</strong> Your contact was updated.</p>
 </div>
 <?php endif; ?>
 
 <?php if (array_key_exists('created', $_GET)) : ?>
-<div class="alert alert-info">
-  <p><strong>Contact created!</strong> Your contact was successfully created.</p>
+<div class="notification is-success">
+  <p><strong class ="is-white">Contact created!</strong> Your contact was successfully created.</p>
 </div>
 <?php endif; ?>
 
-<a href="/delete.php?id=<?= $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a>
-<h1>Edit Contact</h1>
+<!-- <a href="/delete.php?id=<?= $contact['id']; ?>" class="btn btn-danger btn-xs pull-right btn-delete">Delete Contact</a> -->
+
+<a href="/delete.php?id=<?= $contact['id']; ?>" class="button is-danger is-outlined is-pulled-right nounderline" >
+    <span>Delete Contact</span>
+    <span class="icon is-small">
+      <i class="fa fa-times"></i>
+    </span>
+</a>
+
+
+
+<h1 class ="title">Edit Contact</h1>
+
 
 <form method="POST" action="/update.php">
   <input type="hidden" name="id" id="contact_id" value="<?= $contact['id']; ?>" />

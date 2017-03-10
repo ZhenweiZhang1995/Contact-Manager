@@ -42,3 +42,46 @@ textarea.form-control {
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
 }
+
+div.is-white{
+  color:white;
+}
+
+.is-white{
+  color:white;
+}
+
+a.nounderline{
+  text-decoration: none;
+}
+
+button.nounderline{
+  text-decoration: none;
+}
+
+a.white{
+  color:white;
+}
+
+.row{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.button.is-danger{
+  background-color: #f81713;
+}
+
+.button.is-danger: hover{
+  background-color: #db110e;
+}
+
+i.fa{
+  padding-left: 3px;
+  margin-top: 3px;
+}
+
+td{
+  padding-left: 2px;
+  padding-right: 2px;
+}

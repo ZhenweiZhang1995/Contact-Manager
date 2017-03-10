@@ -104,6 +104,20 @@ strong.main-icon{
   font-family: 'Prociono';
 }
 
+.Prociono-strong{
+  font-family: 'Prociono';
+  font-weight: bold;
+}
+
+.regularfont{
+
+}
+
+.regularfont-strong{
+  font-weight: bold;
+}
+
+
 h1.maintitle{
   font-size: 220%;
 }
@@ -118,6 +132,10 @@ section.hero{
 }
 
 div.contactform{
+  width:100%;
+}
+
+div.style{
   width:100%;
 }
 
@@ -169,6 +187,21 @@ div.contactform{
     margin-bottom: 5%;
 }
 
+@media screen and (max-width: 480px) {
+    .bluecircle{
+      margin-left: -25%;
+    }
+    .redcircle{
+      margin-left: -25%;
+    }
+    .yellowcircle{
+      margin-left: -25%;
+    }
+    .greencircle{
+      margin-left: -25%;
+    }
+}
+
 .colorpalette{
   float: right;
   width: 20%;
@@ -191,14 +224,9 @@ p.marginset{
   margin-bottom: 2%;
 }
 
-a.marginset{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 #buttonstyle{
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 #color{
@@ -209,4 +237,48 @@ a.marginset{
 #typography{
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+#forms{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#notification{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#lists{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+p.paragraph{
+  font-size: 110%;
+}
+
+.h1style{
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.h2style{
+  font-size: 180%;
+  font-weight: bold;
+}
+
+.h3style{
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.h4style{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.h5style{
+  font-size: 100%;
+  font-weight: bold;
 }

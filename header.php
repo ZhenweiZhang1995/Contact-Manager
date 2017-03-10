@@ -29,15 +29,17 @@ include 'database.php';
         <div class="nav-left">
           <a class="nav-item" href="/index.php">Contact Manager</a>
         </div>
-        <span class="nav-toggle">
+        <label class="nav-toggle" for="nav-toggle-state">
           <span></span>
           <span></span>
           <span></span>
-        </span>
+        </label>
+
+        <!-- This checkbox is hidden -->
+        <input type="checkbox" id="nav-toggle-state" />
+
         <div class="nav-right nav-menu">
-          <a class="nav-item is-active">
-            Home
-          </a>
+
           <a class="nav-item" href="/index.php">All Contacts</a>
           <a class="nav-item" href="/new.php">New Contacts</a>
           <span class="nav-item">
@@ -73,7 +75,7 @@ include 'database.php';
 
 
 
-  <!-- <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default">
         <div class="container-fluid">
 
 
@@ -98,7 +100,7 @@ include 'database.php';
 
 
         </div>
-      </nav> -->
+      </nav>
 
 
       <div class="row">

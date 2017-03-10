@@ -34,3 +34,11 @@ textarea.form-control {
 .btn{
   cursor:pointer;
 }
+
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked ~ .nav-menu {
+  display: block;
+}

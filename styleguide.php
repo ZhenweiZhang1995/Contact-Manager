@@ -36,24 +36,30 @@
 <br class = "clear">
 
 <br>
+<br>
 <h1 class = "title">Typography</h1>
   <div id="typography">
 
     <p class = "paragraph Prociono">
       This is Prociono regular.
     </p>
+    <br>
 
     <p class = "paragraph Prociono-strong">
       This is Prociono bold.
     </p>
+    <br>
 
     <p class = "paragraph">
-      This is Prociono regular.
+      This is BlinkMacSystemFont regular.
     </p>
+    <br>
 
     <p class = "paragraph">
-      This is Prociono bold.
+      This is BlinkMacSystemFont bold.
     </p>
+
+    <br>
 
 
     <h1 class = "h1style" style="margin-bottom:-0.25rem;"> This is the regular type</h1>
@@ -70,6 +76,13 @@
         <strong>Paragraph text</strong>
         Security is a strong brand differentiator. Your customers deserve the respect they are entitled to. We also understand that growing your business is your main priority and have built Barricade with that in mind.
       </p>
+      <br>
+
+      <p class = "paragraph light">
+        <strong>Lighter paragraph text</strong>
+        Security is a strong brand differentiator. Your customers deserve the respect they are entitled to. We also understand that growing your business is your main priority and have built Barricade with that in mind.
+      </p>
+
   </div>
 
 

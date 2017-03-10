@@ -282,3 +282,7 @@ p.paragraph{
   font-size: 100%;
   font-weight: bold;
 }
+
+p.light {
+    font-weight: lighter;
+}

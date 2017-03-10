@@ -11,7 +11,7 @@
 
       <div class="content has-text-centered is-white">
         <p>
-          Link to <a href="styleguide.html"><strong>CSS style guide</strong></a> of the site
+          Link to <a href="styleguide.php"><strong>CSS style guide</strong></a> of the site
         </p>
         <p>
           Website designed by <a href="https://github.com/ZhenweiZhang1995"><strong>Zhenwei Zhang</strong></a>

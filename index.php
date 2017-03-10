@@ -13,7 +13,8 @@
 <h1 class = "title">All Contacts <span class="text-muted">(<?= count($contacts); ?>)</span></h1>
 
 <!-- creat the table -->
-<table class="table table-hover">
+<div class="contact-form" style="overflow-x:auto;">
+<table class="table table-responsive table-hover">
   <thead>
     <th>ID</th>
     <th>Name</th>
@@ -55,6 +56,7 @@
     <?php endforeach; ?>
   </tbody>
 </table>
+</div>
 
 
 <?php include 'footer.php'; ?>
